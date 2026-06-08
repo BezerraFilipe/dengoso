@@ -288,9 +288,7 @@ COLUNA_HISTOPATOLOGIA = {
     "tp_result_histopatologia", "HISTOPA_N", "histopa_n",
 }
 
-COLUNA_IMUNOHISTOQUIMICA = {
-    "tp_result_imunohistoquimica", "IMUNOH_N", "imunoh_n",
-}
+COLUNA_IMUNOHISTOQUIMICA = {"tp_result_imunohistoquimica", "IMUNOH_N", "imunoh_n"}
 
 # ── Sinais clínicos ──────────────────────────────────────────────────────────
 
