@@ -19,7 +19,7 @@ from scipy import stats
 
 # --- bootstrap: encontra a infra compartilhada em analises/geral/ ---
 import sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, "geral"))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, "comum"))
 # --- fim bootstrap ---
 from pipeline import REPORTS, ROOT, tarefa1_dataframe_unico, tarefa2_delta_dias
 from utils import normaliza_categoria

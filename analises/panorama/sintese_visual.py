@@ -22,6 +22,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, "comum"))
+
 from pipeline import REPORTS, ROOT, tarefa1_dataframe_unico, tarefa2_delta_dias
 from utils import normaliza_categoria
 

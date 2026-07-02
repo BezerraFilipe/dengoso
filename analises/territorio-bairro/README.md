@@ -20,7 +20,7 @@ ranking real (mediana 4; a média 284 é o outlier de 19.100 dias).
 
 ## Como rodar (a partir de `dengoso/`)
 ```bash
-python3 analises/geral/pipeline.py        # 1x: garante a base
+python3 analises/comum/pipeline.py        # 1x: garante a base
 python3 analises/territorio-bairro/desc_territorio.py
 python3 analises/territorio-bairro/teste_territorio.py
 ```

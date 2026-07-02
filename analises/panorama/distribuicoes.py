@@ -22,6 +22,9 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, "comum"))
+
 from mappings import ALL_MAPPINGS, semantic_key
 from pipeline import ENCODING, DENGUE_DIR, REPORTS, ROOT, ano_do_arquivo, \
     detectar_delimitador

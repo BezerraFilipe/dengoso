@@ -19,7 +19,7 @@ Kruskal-Wallis (p = 0,072) não rejeitam H₀. **O tempo até internar não disc
 
 ## Como rodar (a partir de `dengoso/`)
 ```bash
-python3 analises/geral/pipeline.py        # 1x: garante a base
+python3 analises/comum/pipeline.py        # 1x: garante a base
 python3 analises/internacao-desfecho/desc_delta.py
 python3 analises/internacao-desfecho/dist_delta.py
 python3 analises/internacao-desfecho/teste_normalidade.py

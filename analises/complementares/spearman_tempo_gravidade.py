@@ -20,7 +20,7 @@ from scipy import stats
 
 # --- infra compartilhada em analises/geral/ ---
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                os.pardir, "geral"))
+                                os.pardir, "comum"))
 from pipeline import (tarefa1_dataframe_unico, tarefa2_delta_dias,  # noqa: E402
                       tarefa3_base_limpa)
 from utils import normaliza_categoria, parse_datas  # noqa: E402
