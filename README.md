@@ -5,7 +5,6 @@ Uma abordagem estatística sobre a questão das arbovirores na cidade do Recife.
 
 Esse repositório documenta decisões técnicas de projeto além da implementação de fato das análises feitas.
 
-Para ver o resultado final, consulte o artigo ...
 
 ---
 
