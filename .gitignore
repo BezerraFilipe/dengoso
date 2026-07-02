@@ -1,1 +1,10 @@
 data/
+
+# documentos e figuras geradas
+*.md
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
