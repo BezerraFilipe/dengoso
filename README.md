@@ -28,4 +28,5 @@ Cada pasta de `analises/` tem um `README.md` próprio com a conclusão e como ro
 scripts de cada tema importam a infra de `analises/comum/`, então rode sempre **a partir da
 raiz `dengoso/`** (ex.: `python3 analises/comum/pipeline.py`).
 
-Para anexar a base de dados, descompacte [esse arquivo](https://drive.google.com/file/d/1EUHq8jpjr3oKz9iFQr6bo4OvB6j_8aml/view?usp=sharing) e o copie para o diretório raiz com o nome "data"
+A base de dados (SINAN — dengue, zika e chikungunya do Recife) já acompanha o repositório
+em `data/`, então basta clonar; nenhum download adicional é necessário.
